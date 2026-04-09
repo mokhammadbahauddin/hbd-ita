@@ -58,6 +58,13 @@ export default function Home() {
       "/images/memories/WhatsApp Image 2026-03-12 at 23.35.31.jpeg"
     ];
 
+    const FALLBACK_PHOTOS = [
+      "https://images.unsplash.com/photo-1518837697219-3230a7d558d4?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1516589174184-c6858b16ecb0?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&q=80&w=800"
+    ];
+
     // --- UTILS & CONSTANTS ---
     const WORLD_LENGTH = 15000; 
     const LYRICS_DATA = [
